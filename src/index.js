@@ -1,5 +1,4 @@
-import "./styles/style.css";
-import "./styles/style.css";
-import { greeting } from "./modules/greeting.js";
+import ui from "./modules/ui.js"
 
-console.log(greeting);
+import "./styles/style.css";
+import "./styles/footer.css";
