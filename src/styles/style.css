@@ -27,7 +27,7 @@ main{
 .calculatorContainer{
     width: 350px;
 }
-.result{
+.result,.b{
     font-size: 45px;
 }
 .resultContainer{
@@ -56,6 +56,7 @@ main{
     border-radius: 10px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
     background-color: rgb(187, 186, 186);
 }
 .btn-clear,.btn-delete{
