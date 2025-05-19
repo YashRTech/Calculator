@@ -5,13 +5,13 @@ function subtract(a, b) {
   return a - b;
 }
 function multiply(a, b) {
-  return a * b;
+  return (a * b).toFixed(2);
 }
 function divide(a, b) {
   if (b === 0) {
     return alert("You can't divide by zero");
   }
-  return a / b;
+  return (a / b).toFixed(2);
 }
 
 export function calculate(a, b, operator) {
