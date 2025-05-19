@@ -14,7 +14,7 @@ function divide(a, b) {
   return a / b;
 }
 
-export default function calculate(operator, a, b) {
+export function calculate(a, b, operator) {
   a = Number(a);
   b = Number(b);
   switch (operator) {
